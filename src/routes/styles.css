@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+    background-color: #000;
+}
+
+body {
+    background-color: #000;
+    color: white;
+}
+
+.max-w-main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.max-w-b {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.grid-a {
+    width: 100%;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin: 0 auto;
+    gap: 20px;
+  }
+
