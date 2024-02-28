@@ -47,6 +47,20 @@
         </div>
 
 
+        <h1 class="font-bold mt-10 ">Related videos </h1>
+        <h1 class="font-bold">Watching Neural Networks Learn</h1>
+		<div class="flex flex-col items-center justify-center">
+			<iframe
+				class="w-full min-h-80"
+				src="https://www.youtube.com/embed/TkwXa7Cvfr8?si=p2mqQKghKoXF9qjO"
+				title="YouTube video player"
+				frameborder="0"
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+				allowfullscreen
+			></iframe>
+		</div>
+
+
     </section>
 
 </main>
