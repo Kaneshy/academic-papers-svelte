@@ -282,8 +282,8 @@
 			></iframe>
 		</div>
 
-		<h1 class="font-bold mt-10 ">Related videos </h1>
-        <h1 class="font-bold">Watching Neural Networks Learn</h1>
+		<h1 class="font-bold mt-10">Related videos</h1>
+		<h1 class="font-bold">Watching Neural Networks Learn</h1>
 		<div class="flex flex-col items-center justify-center">
 			<iframe
 				class="w-full min-h-80"
@@ -294,6 +294,7 @@
 				allowfullscreen
 			></iframe>
 		</div>
+
 	</section>
 </main>
 

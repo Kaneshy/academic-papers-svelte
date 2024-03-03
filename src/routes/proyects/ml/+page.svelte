@@ -1,6 +1,4 @@
 <script>
-	let arrayA = [1, 1, 1, , 2, 3, 4, 4];
-
 	let arrayMl = [
 		{
 			title: 'Healthcare',
@@ -179,39 +177,7 @@
 
 
         
-        <div>
-            <h1 class="font-bold">Data Structures and Algorithms with Visualizations with JAVA  (48 hours course)</h1>
-			<p><strong>NOTE: </strong> Before dive in this course take a course of JAVA</p>
-            <p>Data Structures and Algorithms is an important aspect of every coding interview. This Algorithms and Data Structures course will teach you everything you need to prepare for placements, coding interviews, and logic building. The course walks you through multiple Java algorithms, data structure problems, and their solutions with step-by-step visualizations, so that you are actually learning instead of blindly memorizing solutions.  </p>
-            <p>All code on GitHub</p>
-			<a target="_blank" href="https://github.com/dinesh-varyani/ds-algos">GitHub Repository</a>
-        </div>
-		<div class="flex flex-col items-center justify-center">
-			<iframe
-				class="w-full min-h-80"
-				src="https://www.youtube.com/embed/2ZLl8GAk1X4?si=N29GU7nbRtR2M0SQ"
-				title="YouTube video player"
-				frameborder="0"
-				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-				allowfullscreen
-			></iframe>
-		</div>
-
-
-
-        <div>
-            <h1 class="font-bold">Java, Spring, and Microservices course  (48 hours course)</h1>
-        </div>
-		<div class="flex flex-col items-center justify-center">
-			<iframe
-				class="w-full min-h-80"
-				src="https://www.youtube.com/embed/4XTsAAHW_Tc?si=dU1W9295IUV4f3DT"
-				title="YouTube video player"
-				frameborder="0"
-				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-				allowfullscreen
-			></iframe>
-		</div>
+        
 	</section>
 </main>
 

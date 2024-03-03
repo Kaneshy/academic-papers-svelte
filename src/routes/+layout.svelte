@@ -6,38 +6,29 @@
         title: 'Getting started',
         categories: [
             {
+                label:'Algorithms',
+                route:'/proyects/algorithms'
+            },
+            {
+                label:'Dynamic Programming',
+                route:'/proyects/dynamicP'
+            }
+        ]
+    },
+    {
+        title: 'Machine Learning',
+        categories: [
+            {
                 label:'Introduction',
-                route:'/documentation/analytics'
+                route:'/proyects/ml'
+            },
+			{
+                label:'Pandas',
+                route:'/proyects/ml/pandas'
             },
             {
-                label:'Examples',
-                route:'/documentation/analytics'
-            }
-        ]
-    },
-    {
-        title: 'Inventory',
-        categories: [
-            {
-                label:'Total inventory value',
-                route:'/documentation/products'
-            },
-            {
-                label:'Total stock',
-                route:'/documentation/products'
-            }
-        ]
-    },
-    {
-        title: 'API',
-        categories: [
-            {
-                label:'Products',
-                route:'/documentation/products'
-            },
-            {
-                label:'Total inventory value',
-                route:'/documentation/products'
+                label:'Machine Learning',
+                route:'/proyects/ml'
             }
         ]
     }
@@ -45,13 +36,13 @@
 </script>
 
 <div class="app">
-	<nav class="w-full p-4">
+	<nav class="w-full p-4 sticky">
 		Programmig section
 	</nav>
-	<main class="flex flex-row">
-		<section class=" w-auto h-screen bg-neutral-950">
+	<main class="flex flex-row ">
+		<section class="sticky custom-scrollbar left-0 top-0 z-20 flex h-screen w-fit flex-col justify-between overflow-auto pb-5 pt-10 max-md:hidden  bg-neutral-950">
 			<main
-				class="select-none  flex flex-col gap-6 custom-scrollbar min-w-fit px-10  min-h-screen p-4  border-r border-neutral-700"
+				class="select-none   flex flex-col gap-6  min-w-fit min-h-screen p-10  border-r border-neutral-700"
 			>
 				{#each pagesDocs as target, i}
 					<section  class="flex flex-col gap-4">
@@ -59,7 +50,7 @@
 
 						<div class="text-small-semibold text-neutral-400  flex flex-col gap-4">
 							{#each target.categories as y, i}
-								<div class="hover:text-white" >{y.route} {y.label}</div>
+								<a href={y.route}  class="hover:text-white" >{y.label}</a>
 							{/each}
 						</div>
 					</section>
@@ -67,15 +58,15 @@
 			</main>
 		</section>
 
-		<section class="w-full items-center justify-center flex">
+		<section class="w-full items-center justify-center flex mb-10">
 			<div class=" max-w-4xl">
 				<slot />
 			</div>
 		</section>
 	</main>
 
-	<footer>
-		<p>Derechos <a href="https://kit.svelte.dev">kit.svelte.dev</a></p>
+	<footer class="bg-neutral-950 text-neutral-400">
+		<p>Derechos Reservados</p>
 	</footer>
 </div>
 
