@@ -18,10 +18,6 @@
     {
         title: 'Machine Learning',
         categories: [
-            {
-                label:'Introduction',
-                route:'/proyects/ml'
-            },
 			{
                 label:'Pandas',
                 route:'/proyects/ml/pandas'
@@ -31,18 +27,28 @@
                 route:'/proyects/ml'
             }
         ]
+    },
+    {
+        title: 'Programing lenguages',
+        categories: [
+			{
+                label:'C#',
+                route:'/proyects/pl/cs'
+            }
+        ]
     }
+
 ]
 </script>
 
-<div class="app">
-	<nav class="w-full p-4 sticky">
-		Programmig section
+<div class="">
+	<nav class="bg-neutral-950 w-full p-4 sticky font-bold ">
+		PROGRAMAPEDIA
 	</nav>
 	<main class="flex flex-row ">
-		<section class="sticky custom-scrollbar left-0 top-0 z-20 flex h-screen w-fit flex-col justify-between overflow-auto pb-5 pt-10 max-md:hidden  bg-neutral-950">
+		<section class="sticky  max-w-sm custom-scrollbar left-0 top-0 z-20 flex h-screen flex-col justify-between overflow-auto pb-5 pt-10 max-md:hidden  ">
 			<main
-				class="select-none   flex flex-col gap-6  min-w-fit min-h-screen p-10  border-r border-neutral-700"
+				class="select-none   flex flex-col gap-6   min-h-screen p-10  border-r border-neutral-900"
 			>
 				{#each pagesDocs as target, i}
 					<section  class="flex flex-col gap-4">
@@ -50,7 +56,7 @@
 
 						<div class="text-small-semibold text-neutral-400  flex flex-col gap-4">
 							{#each target.categories as y, i}
-								<a href={y.route}  class="hover:text-white" >{y.label}</a>
+								<a href={y.route}  class="hover:text-white w-full p-2 hover:bg-neutral-900 rounded-xl" >{y.label}</a>
 							{/each}
 						</div>
 					</section>
@@ -58,8 +64,8 @@
 			</main>
 		</section>
 
-		<section class="w-full items-center justify-center flex mb-10">
-			<div class=" max-w-4xl">
+		<section class="w-full  items-center justify-center flex mb-10">
+			<div class=" max-w-4xl p-4 max-md:p-0 ">
 				<slot />
 			</div>
 		</section>
