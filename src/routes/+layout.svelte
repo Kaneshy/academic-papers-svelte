@@ -52,7 +52,7 @@
 			>
 				{#each pagesDocs as target, i}
 					<section  class="flex flex-col gap-4">
-						<p class="t text-body-bold">{target.title}</p>
+						<p class="t text-body-bold  text-blue-950">{target.title.toUpperCase()}</p>
 
 						<div class="text-small-semibold text-neutral-400  flex flex-col gap-4">
 							{#each target.categories as y, i}

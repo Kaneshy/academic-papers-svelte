@@ -61,14 +61,14 @@
 		</p>
 
 		<div>
-			<a target="_blank" class="p-2 rounded-md bg-green-800 border border-green-400 hover:bg-green-500" href="https://drive.google.com/file/d/1-qjgCLyaMGjG88G0WFHQRCf9L2fXC4d5/view">Cheat Sheet Pandas</a>
+			<a target="_blank" class="p-2 rounded-md bg-green-800 border border-green-400 hover:bg-green-500" href="https://drive.google.com/file/d/1-AXDSgPBhupjqUR0OjmnVvTx64toCDA0/preview">Cheat Sheet C#</a>
 		</div>
 		<h2 class="font-bold">Introduction video</h2>
 		<section class="flex w-full gap-2 justify-between max-lg:flex-col">
 			<div class="flex w-full flex-col items-center justify-center">
 				<iframe
 					class="w-full min-h-80"
-					src="https://www.youtube.com/embed/CIQJtJ38-hI?si=_iojez79b5kot4Wv"
+					src="https://www.youtube.com/embed/ravLFzIguCM?si=1HWNQnyHs7_lRK1Y"
 					title="YouTube video player"
 					frameborder="0"
 					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -78,7 +78,7 @@
 			<div class="flex w-full flex-col items-center justify-center">
 				<iframe
 					class="w-full min-h-80"
-					src="https://www.youtube.com/embed/CIQJtJ38-hI?si=_iojez79b5kot4Wv"
+					src="https://www.youtube.com/embed/6GQAE7iLOhY?si=rBIZ9TYxJnpkx0ah"
 					title="YouTube video player"
 					frameborder="0"
 					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -111,12 +111,12 @@
 		</div>
 
 
-		<h1 class="font-bold">Data Analysis with Python Course - Numpy, Pandas, Data Visualization  (9 hours course)</h1>
-		<p>Learn the basics of Python, Numpy, Pandas, Data Visualization, and Exploratory Data Analysis in this course for beginners. This was originally presented as a live course.</p>
+		<h1 class="font-bold">C# Course for Beginners (4 hours course)</h1>
+		<p>This course will give you a full introduction into all of the core concepts in C# (aka C Sharp). Follow along with the course and you'll be a C# programmer in no time!</p>
 		<div class="flex flex-col items-center justify-center">
 			<iframe
 				class="w-full min-h-80"
-				src="https://www.youtube.com/embed/GPVsHOlRBBI?si=m58v88MXDBm_DJR1"
+				src="https://www.youtube.com/embed/GhQdlIFylQ8?si=tozVUNXOMQPkT2G"
 				title="YouTube video player"
 				frameborder="0"
 				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -124,18 +124,42 @@
 			></iframe>
 		</div>
 
-		<h1 class="font-bold">Pandas & Python for Data Analysis</h1>
-		<p>Learn how to use Pandas and Python for Data Analysis, to Data Cleaning and Data Wrangling. You will learn by creating real life projects interactively to help you take the next step in your Data Science Career.</p>
+		<h1 class="font-bold">C# Full Course for Beginners (9 hours course)</h1>
 		<div class="flex flex-col items-center justify-center">
 			<iframe
 				class="w-full min-h-80"
-				src="https://www.youtube.com/embed/gtjxAH8uaP0?si=fDvxMzkfI49e8k4x"
+				src="https://www.youtube.com/embed/M5ugY7fWydE?si=ASaDLZJK_7hsdeg0"
 				title="YouTube video player"
 				frameborder="0"
 				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 				allowfullscreen
 			></iframe>
 		</div>
+
+		<h1 class="font-bold">Microsoft C# Fundamentals</h1>
+		<div class="flex flex-col items-center justify-center">
+			<iframe
+				class="w-full min-h-80"
+				src="https://www.youtube.com/embed/0QUgvfuKvWU?si=ZzVUekQb6ZSYKGw5"
+				title="YouTube video player"
+				frameborder="0"
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+				allowfullscreen
+			></iframe>
+		</div>
+
+		<h1 class="font-bold">C# (8 hours course)</h1>
+		<div class="flex flex-col items-center justify-center">
+			<iframe
+				class="w-full min-h-80"
+				src="https://www.youtube.com/embed/YrtFtdTTfv0?si=XWFHeuwSBrLUYSfx"
+				title="YouTube video player"
+				frameborder="0"
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+				allowfullscreen
+			></iframe>
+		</div>
+
 
 		<div class="w-full flex justify-end">
 			<a href="/proyects/ml" class="p-4 border select-none hover:bg-neutral-500">Next Step Machine Learning </a>
