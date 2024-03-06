@@ -34,6 +34,10 @@
 			{
                 label:'C#',
                 route:'/proyects/pl/cs'
+            },
+			{
+                label:'C++',
+                route:'/proyects/pl/cpp'
             }
         ]
     }
@@ -84,11 +88,6 @@
 		align-items: center;
 		padding: 12px;
 	}
-
-	footer a {
-		font-weight: bold;
-	}
-
 	@media (min-width: 480px) {
 		footer {
 			padding: 12px 0;
