@@ -54,13 +54,21 @@
 			of computer science.
 		</p>
 
-		<div>
+		<div class="flex gap-4">
 			<a
 				target="_blank"
 				class="p-2 rounded-md bg-green-800 border border-green-400 hover:bg-green-500"
 				href="https://drive.google.com/file/d/1nt5sj5iwO7wYgNzYUAbYYmSdd35MoKAx/preview"
 				>Cheat Sheet C++</a
 			>
+			<a
+				target="_blank"
+				class="p-2 rounded-md bg-green-800 border border-green-400 hover:bg-green-500"
+				href="https://drive.google.com/file/d/1vS0j2F2eA80exwP3e2RS2yM8dE-_s33O/preview"
+				>Cheat Sheet C++</a
+			>
+
+			
 		</div>
 		<h2 class="font-bold">Introduction video</h2>
 		<section class="flex w-full gap-2 justify-between max-lg:flex-col">
