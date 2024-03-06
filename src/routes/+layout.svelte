@@ -38,6 +38,10 @@
 			{
                 label:'C++',
                 route:'/proyects/pl/cpp'
+            },
+			{
+                label:'JavaScript',
+                route:'/proyects/pl/javascript'
             }
         ]
     }
