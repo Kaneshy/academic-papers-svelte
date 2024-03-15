@@ -42,6 +42,10 @@
 			{
                 label:'JavaScript',
                 route:'/proyects/pl/javascript'
+            },
+			{
+                label:'C',
+                route:'/proyects/pl/c'
             }
         ]
     }
