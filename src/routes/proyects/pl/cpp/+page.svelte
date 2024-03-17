@@ -103,6 +103,20 @@
 			it has undergone several revisions, with the latest standard being C++20.
 		</p>
 
+		<h1 class="text-center text-3xl font-bold">Why Use C++</h1>
+		<p>
+			C++ is one of the world's most popular programming languages.
+		</p>
+		<p>
+			C++ can be found in today's operating systems, Graphical User Interfaces, and embedded systems.
+		</p>
+		<p>
+			C++ is an object-oriented programming language which gives a clear structure to programs and allows code to be reused, lowering development costs.
+		</p>
+		<p>
+			C++ is portable and can be used to develop applications that can be adapted to multiple platforms
+		</p>
+
 		<h2 class="font-bold">Key Features of C#</h2>
 
 		<div class="grid-a">
