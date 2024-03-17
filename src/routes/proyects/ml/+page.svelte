@@ -56,6 +56,16 @@
 					allowfullscreen
 				></iframe>
 			</div>
+			<div class="flex w-full flex-col items-center justify-center">
+				<iframe
+					class="w-full min-h-80"
+					src="https://www.youtube.com/embed/PeMlggyqz0Y?si=G8Rn4N0wazD6QCqG"
+					title="YouTube video player"
+					frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+					allowfullscreen
+				></iframe>
+			</div>
 		</section>
 
 		<h2 class="font-bold">The ML Process</h2>
