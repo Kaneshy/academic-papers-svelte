@@ -49,12 +49,12 @@
 				href="https://drive.google.com/file/d/1iHvRABQimZ6cm15eWfjB989g-UHwLDJd/preview"
 				>JavaScript Cheat Sheet</a
 			>
-			<a
+			<!-- <a
 				target="_blank"
 				class="p-2 rounded-md bg-green-800 border border-green-400 hover:bg-green-500"
 				href="https://drive.google.com/file/d/1yzJNZBQizpgDOSx8BRLKMZEy3IrflGw5/preview"
 				>JavaScript Cheat Sheet</a
-			>
+			> -->
 
 			
 		</div>
