@@ -49,14 +49,12 @@
 				href="https://drive.google.com/file/d/1iHvRABQimZ6cm15eWfjB989g-UHwLDJd/preview"
 				>JavaScript Cheat Sheet</a
 			>
-			<!-- <a
+			<a
 				target="_blank"
 				class="p-2 rounded-md bg-green-800 border border-green-400 hover:bg-green-500"
 				href="https://drive.google.com/file/d/1yzJNZBQizpgDOSx8BRLKMZEy3IrflGw5/preview"
 				>JavaScript Cheat Sheet</a
-			> -->
-
-			
+			>
 		</div>
 		<h2 class="font-bold">Introduction videos</h2>
 		<section class="flex w-full gap-2 justify-between max-lg:flex-col">
@@ -138,6 +136,13 @@
 		<a target="_blank" href="https://www.youtube.com/watch?v=SBmSRK3feww&ab_channel=SuperSimpleDev" class="flex flex-col items-center justify-center">
 			<img class="w-full min-h-80" src="https://res.cloudinary.com/dh01ngdjo/image/upload/v1709765075/my-uploads/Screenshot_2024-03-06_174324_kkjpyz.jpg" alt="">
 		</a>
+
+		<h1 class="font-bold">Website to practice JavaScript</h1>
+		<a target="_blank" href="https://learnjavascript.online/app.html?id=1437" class="flex flex-col items-center justify-center">
+			<img class="w-full min-h-80" src="https://res.cloudinary.com/dh01ngdjo/image/upload/v1709765075/my-uploads/Screenshot_2024-03-06_174324_kkjpyz.jpg" alt="">
+		</a>
+
+		
 
 
 		<div class="w-full flex justify-end">
